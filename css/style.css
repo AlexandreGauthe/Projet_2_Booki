@@ -13,12 +13,9 @@
     color: var(--main-color);
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
 
 .main-container {
+   
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
@@ -32,7 +29,7 @@ a {
 
 .section-title {
     margin: 0;
-    font-size: 22px;
+    font-size: 1.375em;
 }
 
 .card {
@@ -58,6 +55,105 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** header***************/
+.bandeau-container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width : 100%;
+    margin : 30px 50px;
+    
+}
+
+.menu{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap : 4.25em;
+}
+
+
+.menu a{
+
+    padding: 50px;;
+}
+
+
+/****** La zone de recherche ******/
+
+.search-container{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+
+.search-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.search h1{
+
+    font-size: 1.375em;
+}
+
+
+/**** Les filtres *****/
+
+.filters-container{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-top : 35px;
+    margin-bottom: 35px;
+}
+
+.filters-container a{
+
+    font-size: 1.063;
+    font-weight: 700;
+   
+   
+}
+
+.filters-container a:hover{
+
+    background-color: #DEEBFF;
+}
+
+.filters-container img{
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.filters{
+
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    border: 2px solid var(--Grey-Tint2, #D9D9D9);
+    padding: 12px;
+    margin-right: 10px;
+
+}
+
+.results{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 35px;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -94,7 +190,7 @@ a {
 
 .populaires-cards img {
     width: 33%;
-    height: 136px;
+    height: 8.5em;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -121,6 +217,12 @@ a {
     margin-bottom: 5px;
 }
 
+.container-activites{
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
 
 
 
