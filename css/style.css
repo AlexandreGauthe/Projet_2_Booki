@@ -386,8 +386,8 @@ h1{
 
 .populaires-title {
     
-    margin-top: 30px;
-    margin-bottom: 30px;
+    width: 100%;
+    margin: 30px;
     display: flex;
     gap: 150px;
     justify-content: center;
@@ -401,15 +401,16 @@ h1{
     width: 23em;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     gap: 30px;
-    padding: 60px;
+    margin: 30px;
     
     
 }
 
 .populaires-cards .card {
     
+    height: 9.125em;
     width: 100%;
     display: flex;
     margin-top: 33px;
@@ -420,9 +421,10 @@ h1{
 .populaires-cards img {
     
     width: 33%;
-    height: 8.5em;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    object-fit: cover;
+    
 }
 
 .populaires-cards .card-content {
@@ -463,7 +465,7 @@ h1{
 
 .activites-title{
 
-    margin: 30px 50px;
+    margin: 30px 75px;
 }
 .cards-container{
 
@@ -473,7 +475,7 @@ h1{
     justify-content: flex-start;
     align-items: flex-start;
     gap: 30px;
-    margin: 30px 50px;
+    margin: 30px 75px;
 
 }
 
