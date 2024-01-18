@@ -495,7 +495,10 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin : 35px 50px;
+    margin-top : 35px;
+    margin-bottom: 35px;
+    margin-right: 50px;
+    margin-left: 60px;
 }
 
 .activites-title{
@@ -561,18 +564,20 @@ footer{
     align-items: flex-start;
     gap: 35px;
     background-color: #F2F2F2;
+    padding: 20px;
   
 }
 .foot h3{
 
-    margin-top: 20px;
+
     margin-left: 40px;
-    
+    line-height: 0px;
   
 }
 li{
 
    list-style-type: none;
+   line-height: 15px;
 }
 
 .list-1{
@@ -581,6 +586,7 @@ li{
     flex-direction: column;
     align-items: flex-start;
     flex:  1 0 0;
+    
     
   
    
