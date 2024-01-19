@@ -60,7 +60,7 @@ a {
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .euro {
@@ -93,10 +93,6 @@ a {
     margin-top: 30px 50px;
 }
 
-h1{
-
-    font-size: 1.375em;
-}
 
 .menu{
 
@@ -140,9 +136,15 @@ h1{
 
 }
 
-.search h1{
+.search-text h1{
 
     font-size: 1.375em;
+    
+}
+
+.search-text p{
+
+    font-size: 1em;
 }
 
 
