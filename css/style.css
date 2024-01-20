@@ -82,6 +82,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    margin-left: 50px;
     
     
   
@@ -92,27 +93,34 @@ a {
 
     margin-top:  30px;
     margin-bottom: 30px;
-    margin-left: 50px;
+    
+    
+ 
 }
 
 .logo img{
 
-    width: 50%;
+    width: 30%;
+    
 
 }
 
 .menu{
 
+    
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     gap : 68px;
+    
+    
 }
 
 .menu a{
 
     
     line-height: 50px;
+    
     
    
 }
@@ -121,7 +129,6 @@ a {
     border-top: 2px solid #0065FC;
     color: #0065FC;
 }
-
 
 
 /****** La zone de recherche ******/
@@ -262,13 +269,20 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-   
     margin-left: 50px;
     box-sizing: border-box;
     width: 68%;
     
     
+    
 }
+
+.hebergements-title{
+    
+    line-height: 10px;
+    
+}
+
 .hebergements-cards-1{
     
     width: 100%;
@@ -291,7 +305,6 @@ a {
     display: flex;
     flex-direction: column;
     flex: 0 1 24%;
-    margin-top: 30px;
     margin-bottom: 30px;
     
     
@@ -357,12 +370,11 @@ a {
     display: flex;
     flex-direction: column;
     flex: 0 1 24%;
-    margin-top: 30px;
     margin-bottom: 30px;
     
     
     
-  }
+}
 
 .hebergements-cards-2 img{
     
@@ -458,8 +470,7 @@ a {
     display: flex;
     margin-top: 33px;
     border-radius: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+ 
     
 }
 
@@ -514,6 +525,7 @@ a {
 .activites-title{
 
     margin: 30px 75px;
+    
 }
 .cards-container{
 
@@ -551,6 +563,8 @@ a {
 .a-card h3{
 
     margin-left: 18px;
+    font-size: 1em;
+    padding-bottom: 4px;
 }
 
 
@@ -559,11 +573,12 @@ a {
 footer{
 
     height: 10.188em;
-    width: 100%;
+    width: 93%;
     margin-top: 35px;
     margin-bottom: 58px;
-    margin-left: 70px;
+    margin-left: 90px;
     margin-right: 50px;
+    
 }
 
 .foot{
@@ -574,7 +589,9 @@ footer{
     align-items: flex-start;
     gap: 35px;
     background-color: #F2F2F2;
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    
   
 }
 .foot h3{
