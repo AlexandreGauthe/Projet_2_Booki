@@ -5,7 +5,7 @@
 
 body{
 
-    max-width: 90em;
+   
     margin: 0px;
     padding: 0px;
 }
@@ -23,7 +23,8 @@ body{
 
 .main-container {
    
-    width: 100%;
+    max-width: 1440px;
+    width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -82,7 +83,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin-left: 50px;
+   
     
     
   
@@ -100,7 +101,7 @@ a {
 
 .logo img{
 
-    width: 30%;
+    width: 35%;
     
 
 }
@@ -111,8 +112,8 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    gap : 68px;
     
+   
     
 }
 
@@ -120,7 +121,7 @@ a {
 
     
     line-height: 50px;
-    
+    margin-left: 68px;
     
    
 }
@@ -137,8 +138,7 @@ a {
 
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    
+ 
 }
 
 .search-text{
@@ -148,6 +148,7 @@ a {
     justify-content: flex-start;
     line-height: 8px;
     margin-bottom: 35px;
+    margin-top: 30px;
 
 }
 
@@ -194,9 +195,9 @@ a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 15px;
     margin-top : 35px;
     margin-bottom: 35px;
+    gap: 15px;
 }
 
 .filters-container a{
@@ -204,6 +205,9 @@ a {
     
     font-size: 1.063em;
     font-weight: 700;
+    padding-right: 19px;
+    
+ 
    
    
 }
@@ -213,11 +217,7 @@ a {
     background-color: #DEEBFF;
 }
 
-.filters-container img{
 
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 .filters{
 
@@ -227,6 +227,7 @@ a {
     border: 2px solid var(--Grey-Tint2, #D9D9D9);
     padding: 12px;
     margin-right: 10px;
+    gap: 15px;
 
 }
 
@@ -269,9 +270,8 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    margin-left: 50px;
     box-sizing: border-box;
-    width: 68%;
+    width: 65%;
     
     
     
@@ -290,11 +290,9 @@ a {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    flex-basis: auto;
-    object-fit: contain;
     gap: 30px;
-    object-fit: contain;
-    
+    margin-top: 20px;
+  
 }
 
 
@@ -355,10 +353,8 @@ a {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    flex-basis: auto;
-    object-fit: contain;
     gap: 30px;
-    object-fit: contain;
+    
     
 }
 
@@ -425,7 +421,7 @@ a {
 /****** Populaires ***********/
 .populaires {
   
-    height: 100%;
+    
     width: 32%;
     display: flex;
     flex-direction: column;
@@ -434,30 +430,32 @@ a {
     border-radius: 20px;
     box-sizing: border-box;
     margin-left: 40px;
+    margin-right: 50px;
+    padding: 30px;
    
 }
 
 .populaires-title {
     
-    width: 100%;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    width: 369px;
     display: flex;
-    gap: 150px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
     
 }
+
 
 .populaires-cards{
 
     
-    width: 23em;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
     
     
     
@@ -465,8 +463,8 @@ a {
 
 .populaires-cards .card {
     
-    height: 9.125em;
-    width: 100%;
+   
+   
     display: flex;
     margin-top: 33px;
     border-radius: 20px;
@@ -476,6 +474,7 @@ a {
 
 .populaires-cards img {
     
+    height: 146px;
     width: 33%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -573,7 +572,7 @@ a {
 footer{
 
     height: 10.188em;
-    width: 93%;
+    width: 1440px;
     margin-top: 35px;
     margin-bottom: 58px;
     margin-left: 90px;
@@ -584,7 +583,7 @@ footer{
 .foot{
 
     
-    width: 100%;    
+    width: 93%;    
     display: flex;
     align-items: flex-start;
     gap: 35px;
