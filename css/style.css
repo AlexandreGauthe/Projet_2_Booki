@@ -193,6 +193,17 @@ a {
     
 }
 
+.search-form ::placeholder{
+
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.search-form .mobile{
+
+    display: none;
+}
 
 /**** Les filtres *****/
 
@@ -211,7 +222,7 @@ a {
     align-items: center;
     margin-top : 35px;
     margin-bottom: 35px;
-    gap: 15px;
+    
 }
 
 .filters-containers a{
@@ -239,10 +250,23 @@ a {
     border: 2px solid var(--Grey-Tint2, #D9D9D9);
     padding: 12px;
     margin-right: 10px;
-    gap: 15px;
+    margin-left: 5px;
+    gap: 10px;
 
 }
 
+.filters-containers .mobile-1{
+
+    display: flex;
+    margin: auto;
+}
+
+.filters-containers .mobile-2{
+
+    display: flex;
+    margin: auto;
+    
+}
 .results{
 
     display: flex;
@@ -820,5 +844,134 @@ li{
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    /* header *****/
+
+    .main-container{
+        margin: auto;
+    }
+
+    .logo{
+        
+        margin-right: 30px;
+        text-align: center;
+    }
+
+   .bandeau-container{
+
+    width: 100%;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+     
+   }
+
+
+   .menu{
+    
+    width: 100%;
+    justify-content: space-around;
+    gap: 110px;
+    margin-right: 50px;
+   }
+
+   .menu a{
+
+    margin: auto;
+   }
+
+   .menu a:hover{
+
+    border-top: none;
+    border-bottom: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+   .search-container{
+
+    width: 10vw;
+   } 
+
+   .search-text{
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vw;
+   }
+
+   .search-text h1{
+
+    line-height: 28px;
+
+   }
+
+   .search-text p{
+
+    line-height: 0px;
+   }
+
+   .search-container{
+
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80vw;
+   }
+
+   .search-form input{
+
+    width: 90%;
+   }
+
+   .search-form form{
+
+    margin-right: 15px;
+   }
+   .filters-container{
+
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    }
+
+   .filters-containers{
+
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 20px;
+    
+    
+    }
+
+
+    .mobile-1{
+
+        
+
+    }
+
+    .mobile-2{
+
+        
+       
+    }
+
+    .mobile-2 a{
+
+        text-align: left;
+        line-height: 15px;
+    }
+    .search-form .desktop{
+
+        display: none;
+    }
+
+    .search-form .mobile{
+
+        display: inline;
+    }
 }
