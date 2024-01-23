@@ -195,12 +195,20 @@ a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 15px;
+}
+
+.filters-containers{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin-top : 35px;
     margin-bottom: 35px;
     gap: 15px;
 }
 
-.filters-container a{
+.filters-containers a{
 
     
     font-size: 1.063em;
@@ -212,7 +220,7 @@ a {
    
 }
 
-.filters-container a:hover{
+.filters-containers a:hover{
 
     background-color: #DEEBFF;
 }
