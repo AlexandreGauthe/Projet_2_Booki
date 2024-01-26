@@ -24,11 +24,11 @@
             
             <div class="bandeau-container">    
                 <div class="logo">
-                    <img class="logo-image" src="images/logo/Booki.png" alt="logo de booki" title="logo"/>
+                    <img class="logo-image" src="images/logo/Booki.png" alt="logo-de-booki" title="logo"/>
                 </div>
                 <nav class="menu">
-                    <a href="#hebergements">Hébergements</a>
-                    <a href="#activites">Activités</a>
+                    <a id="lien-hebergement" href="#hebergements">Hébergements </a>
+                    <a id="lien-activites" href="#activites">Activités</a>
                 </nav>
             </div>
             <!-- Conteneur du bloc de recherche-->
@@ -39,8 +39,8 @@
                 </div>    
                 <div class="search-form">
                     <form method="get">
-                        <img src="images/search-bar/Group15.svg" alt="Logo-gps"><input type="search" id="search" name="search" placeholder="Marseille, France">
-                        <button><span class="desktop">Rechercher</span><img class="mobile" src="images/search-bar/Vector.svg" alt="Logo loupe"></button>
+                        <i class="fa-solid fa-location-dot"></i><input type="search" id="search" name="search" placeholder="Marseille, France">
+                        <button><span class="desktop">Rechercher</span><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
                 </div>
             <!-- Conteneur des filtres -->    
@@ -50,16 +50,16 @@
                     </div>
                     <div class="filters-containers">
                         <div class="mobile-1">
-                            <a class="filters" href=""><img src="images/images-filtres/Property1=price.svg" alt="logo-billets">Économique</a>
-                            <a class="filters" href=""><img src="images/images-filtres/Property1=family.png" alt="logo-famille"> Familial</a>
+                            <a class="filters" href=""><i class="fa-solid fa-money-bill-wave"></i>Économique</a>
+                            <a class="filters" href=""><i class="fa-solid fa-person"></i>Familial</a>
                         </div>
                         <div class="mobile-2">    
-                            <a class="filters" href=""><img src="images/images-filtres/Property1=romantic.svg" alt="logo-coeur">Romantique</a>
-                            <a class="filters" href=""><img src="images/images-filtres/Property1=fire.svg" alt="logo-flammes">Nos pépites</a>
+                            <a class="filters" href=""><i class="fa-solid fa-heart"></i>Romantique</a>
+                            <a class="filters" href=""><i class="fa-solid fa-fire"></i>Nos pépites</a>
                         </div>    
                     </div>
                 </div>
-                <p class="results"><img src="images/images-filtres/Icon.svg" alt="icone information" title="icone">Plus de 500 logements sont disponibles dans cette ville</p>
+                <p class="results"><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </header>
         <!-- Le corps principal contiendra  les 3 blocs principaux liés à la recherche de l'utilisateur-->
@@ -205,7 +205,7 @@
 
                <!-- Le conteneur de la partie populaire-->
 
-                <section class="populaires">
+                <section class="populaires" id="populaire">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
