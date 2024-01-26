@@ -478,7 +478,10 @@ a {
 }
 
 .activites-title{
-    margin: 30px 75px;
+    margin-top: 30px;
+    margin-left: 65px;
+    margin-right: 75px;
+
     
 }
 .cards-container{
@@ -488,7 +491,9 @@ a {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 30px;
-    margin: 30px 75px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 20px;
 }
 
 .a-card{
@@ -519,7 +524,7 @@ a {
 /* Le pied de page */
 
 footer{
-    height: 10.188em;
+    height: 123px;
     max-width: 90vw;
     width: 100vw;
     margin-top: 35px;
@@ -537,7 +542,6 @@ footer{
     background-color: #F2F2F2;
     padding-top: 20px;
     padding-right: 20px;
-    padding-bottom: 30px;
     margin:auto;
 }
 .foot h3{
@@ -752,6 +756,7 @@ li{
         width: 90vw;
         padding-right: 10px;
         padding-left: 0px;
+        padding-bottom: 60px;
     }
 }    
 
@@ -1128,5 +1133,6 @@ li{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+        padding-bottom: 30px;
     }
 }
