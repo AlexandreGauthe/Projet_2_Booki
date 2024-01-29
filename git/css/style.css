@@ -165,7 +165,6 @@ a {
     background-color: #0065FC;
     font-size: 18px;
     color: #fff;
-    width: 132px;
     font-weight: 700;
 }
 
@@ -260,11 +259,10 @@ a {
     justify-content: flex-start;
     align-items: center;
     gap: 40px;
-    
 }
 
 .hebergements-and-populaires section {
-    max-width: 61.5vw;
+   
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
@@ -282,7 +280,7 @@ a {
     box-sizing: border-box;
     margin-right: 25px;
     width: 65%;
-    margin-left: 50px;
+    margin-left: 40px;
     background-color: var(--main-bg-color);
 }
 
@@ -301,7 +299,7 @@ a {
 }
 
 .hebergements-cards-1 .card{
-    width: 17vw;
+    width: 17.5vw;
     display: flex;
     flex-direction: column;
     flex: 0 1 24%;
@@ -348,7 +346,7 @@ a {
 }
 
 .hebergements-cards-2 .card{
-    width: 17vw;
+    width: 17.5vw;
     display: flex;
     flex-direction: column;
     flex: 0 1 24%;
@@ -481,7 +479,7 @@ a {
 
 .activites-title{
     margin-top: 30px;
-    margin-left: 70px;
+    margin-left: 65px;
     margin-right: 75px;
 
     
@@ -493,13 +491,13 @@ a {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 30px;
-    margin-left: 70px;
+    margin-left: 75px;
     margin-right: 75px;
     margin-top: 20px;
 }
 
 .a-card{
-    width: 20.5vw;
+    width: 21vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -530,13 +528,14 @@ footer{
     max-width: 90vw;
     width: 100vw;
     margin-top: 35px;
+    margin-bottom: 58px;
     margin-left: 60px;
     margin-right: 0px;
 }
 
 .foot{
-    max-width: 93vw;
-    width: 100vw;    
+    max-width: 92vw;
+    width: 95vw;    
     display: flex;
     align-items: flex-start;
     gap: 35px;
@@ -544,16 +543,14 @@ footer{
     padding-top: 20px;
     padding-right: 20px;
     margin:auto;
-    margin-left: -25px;
 }
 .foot h3{
     margin-left: 40px;
     line-height: 0px;
-    margin-bottom: 5px;
 }
 li{
     list-style-type: none;
-    line-height: 36px;
+    line-height: 40px;
 }
 
 .list-1{
@@ -628,51 +625,45 @@ li{
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        padding-right: 0px;
-    }   
+    }
 
     .hebergements-and-populaires section{
-        max-width: 92vw;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        padding-right: 0px;
     }
 
     .hebergements {
-        width: 91vw;
+        width: 100%;
         max-width: 91.2vw;
         margin-left :50px;
-        
-        
     
     }
 
     .hebergements-title{
-        margin-bottom: 30px;
-        margin-top: 0px;
+        margin-bottom: 20px;
         line-height: 0px;
     }
 
     .hebergements-cards-1{
         width: 80%;
-        margin-left: 70px;
+        margin: auto;
         box-sizing: border-box;
     }
     
     .hebergements-cards-1 .card{
-        width: 25vw;
+        width: 25.5vw;
     }
 
     .hebergements-cards-2{
         width: 80%;
-        margin-left: 70px;
+        margin: auto;
         box-sizing: border-box;
     }
     
     .hebergements-cards-2 .card{
-        width: 25vw;
+        width: 25.5vw;
     }
 
     .populaires {
@@ -691,15 +682,14 @@ li{
         width: 100%;
         margin-top: 5px;
         margin-left: 14px;
-        margin-bottom: -10px;
     }
 
     .populaires-title i{
-        margin-right: 45px;
+        margin-right: 10px;
     }
 
     .populaires-cards {
-        width: 89vw;
+        width: 85vw;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -707,7 +697,6 @@ li{
         margin-left: 30px;
     }
 
-    
     .populaires-cards a {
         width: 30%;
     }
@@ -756,9 +745,9 @@ li{
     footer{
         
         height: 163px;
-        width: 92vw;
+        width: 90vw;
         margin-bottom: 0px;
-        margin-left: 65px;
+        margin-left: 45px;
         padding-right: 0px;
     }
 
@@ -767,16 +756,7 @@ li{
         width: 90vw;
         padding-right: 10px;
         padding-left: 0px;
-        padding-right: 25px;
-        padding-bottom: 20px;
-    }
-
-    .list-1{
-        margin-left: -15px;
-    }
-
-    .list-3{
-        margin-left: 5px;
+        padding-bottom: 60px;
     }
 }    
 
@@ -894,14 +874,12 @@ li{
     }
    
    .search-form button{
-        padding: 16px 15px ;
+        padding: 15px 16px;
         align-items: center;
         gap: 10px;
         height: 49px;
-        width: 49px;
         border-radius: 15px;
         border:none;
-
     }
 
    .search-form form{
@@ -972,12 +950,8 @@ li{
         display: inline;
         color: white;
         background:none;
-        width: 17px;
-        height: 17px;
-        margin-left: 0px;
+        font-size: 18px;
     }
-
-    
 
     /* Bloc hebergement et populaire inversé mobile ****/
 
@@ -1064,7 +1038,6 @@ li{
         gap: 0px;
         margin-top: 0px;
         margin-bottom: 0px;
-        margin-left: 35px;
     }
 
     .hebergements-cards-2{
@@ -1073,7 +1046,6 @@ li{
         align-items: center;
         gap: 0px;
         margin-bottom: 0px;
-        margin-left: 35px;
     }
 
     .hebergements-cards-1 .card{
@@ -1114,13 +1086,12 @@ li{
     .cards-container{
         flex-direction: column;
         width: 100vw;
+        margin: 0px;
         padding: 0px;
-        margin-left: 15px;
-        
     }
 
     .a-card{
-        width: 85vw;
+        width: 90vw;
         height: 200px;
         margin-left: 15px;
     }
@@ -1163,10 +1134,5 @@ li{
         justify-content: flex-start;
         align-items: flex-start;
         padding-bottom: 30px;
-    }
-
-    .list-1{
-
-        margin-left: 0px;
     }
 }
