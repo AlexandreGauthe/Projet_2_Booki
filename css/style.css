@@ -639,6 +639,7 @@ li{
     }
 
    
+   
 /* Bloc Hébergements et Populaires*****/
 
     main{
@@ -779,7 +780,7 @@ li{
     }
 
     .foot{
-        height: 163px;
+        height: auto;
         width: 90vw;
         padding-right: 10px;
         padding-left: 0px;
