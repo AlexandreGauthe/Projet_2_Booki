@@ -259,6 +259,7 @@ header{
     justify-content: flex-start;
     align-items: center;
     gap: 40px;
+
     
 }
 
@@ -274,6 +275,7 @@ header{
 
 
 .hebergements {
+    width: 65%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -401,6 +403,7 @@ header{
 /****** Populaires ***********/
 
 .populaires {
+    
     width: 32%;
     max-width: 32%;
     display: flex;
@@ -410,7 +413,7 @@ header{
     border-radius: 20px;
     box-sizing: border-box;
     margin-right: 50px;
-    max-height: 650px;
+    height: 650px;
 }
 
 .populaires-title {
@@ -741,13 +744,14 @@ li{
         padding-top: 20px;
         padding-left: 30px;
         padding-right: 25px;
+        height: auto;
     }
 
     .populaires-title{
         width: 100%;
         margin-top: 5px;
         margin-left: 0px;
-        margin-bottom: -10px;
+        margin-bottom: 0px;
     }
 
     .populaires-title i{
@@ -1086,7 +1090,7 @@ li{
 
     .populaires-title{
         width: 100vw;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
         margin-left: -25px;
       
     }
